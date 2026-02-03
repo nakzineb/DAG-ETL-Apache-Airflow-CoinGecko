@@ -17,3 +17,6 @@ Un ETL orchestré avec Airflow permet une planification automatique (pas besoin 
 Les risques principaux sont le rate limiting (l'API peut bloquer les requêtes si on en fait trop), la disponibilité de l'API externe qui peut être down, les changements de format de données par le fournisseur, et le fait que les données peuvent être inexactes ou incomplètes. C'est pourquoi on a mis en place des retries et une vérification de l'API avant l'extraction.
 3. En quoi Airflow se distingue-t-il d'un simple planificateur de tâches ?
 Airflow va bien au-delà d'un simple planificateur comme cron. Il permet de gérer les dépendances entre tâches, visualiser les workflows sous forme de graphes, gérer les erreurs avec des retries automatiques, offre une interface web pour monitoring en temps réel, et permet de relancer uniquement les tâches échouées sans avoir à rejouer tout le pipeline.
+
+
+![alt text](image.png)

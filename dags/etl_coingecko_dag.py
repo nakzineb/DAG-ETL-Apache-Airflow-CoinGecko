@@ -11,7 +11,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
-# Ajouter le dossier scripts au chemin Python
+# le dossier scripts au chemin Python
 sys.path.insert(0, "/usr/local/airflow/scripts")
 
 from extract import extraire_données
