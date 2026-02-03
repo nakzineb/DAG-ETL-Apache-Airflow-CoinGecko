@@ -1,0 +1,19 @@
+# Logs
+logs/
+__pycache__/
+*.pyc
+
+# Docker
+.env
+
+# Données générées
+data/raw/
+data/processed/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
